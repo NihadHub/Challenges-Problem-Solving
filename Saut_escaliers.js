@@ -7,9 +7,7 @@ function façonsArriver(nombre){
        else{
                return façonsArriver(nombre-1) + façonsArriver(nombre-2)
 
-       }
-       return façonsArriver(nombre-1) + façonsArriver(nombre-2)
-     
+       }   
 }
 console.log(façonsArriver(nombre));
 
